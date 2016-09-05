@@ -1,0 +1,127 @@
+.header {
+}
+.subheader {
+}
+.body {
+}
+.footer {
+}
+.container .subheader #tableheader {
+	background-image: url(../images/tbl.jpg);
+	border-width: 1px 1px 1px 1px;
+	padding: 3px 3px 3px 3px;
+	border-style: groove groove groove groove;
+	border-color: rgb(0, 102, 102) rgb(0, 102, 102) rgb(0, 102, 102) rgb(0, 102, 102);
+	background-color: white;
+	-moz-border-radius: 12px 12px 12px 12px;
+}
+.container .header #welcome {
+	background-image: url(file:///D|/SLIMS/images/tbl.jpg);
+}
+
+.container .subheader #tableheader table{
+	background-image: none;
+	border-width: 1px 1px 1px 1px;
+	padding: 3px 3px 3px 3px;
+	border-style: groove groove groove groove;
+	border-color: rgb(0, 102, 102) rgb(0, 102, 102) rgb(0, 102, 102) rgb(0, 102, 102);
+	background-color: white;
+	-moz-border-radius: 12px 12px 12px 12px;
+}
+.container .subheader #tableheader p {
+	white-space: normal;
+}
+.container .footer #tblfooter {
+	background-image: url(file:///D|/SLIMS/images/tbl.jpg);
+}
+.container .subheader #tableheader {
+	background-image: url(../images/tbl.jpg);
+}
+.container .subheader {
+	float: left;
+	height: 430px;
+	width: 250px;
+}
+.container .footer {
+	float: none;
+}
+.container .body {
+	clear: right;
+	float: right;
+	height: 450px;
+	width: 550px;
+}
+.lighter
+{
+color:#0E8582;
+}
+.numbers{
+font-size:12px;
+}
+
+td {
+	color:#054B4B;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	}
+	
+a {
+	
+	color:#336666;
+	text-decoration:none;
+	}
+	
+a:hover {
+	
+	color: #FFFFFF;
+	}
+
+/* ID Styles */
+
+#navigation td {
+	border-bottom: 1px solid #F4FFE4;
+	}
+	
+#navigation a {
+	color: #172B1B;
+	line-height:16px;
+	letter-spacing:.1em;
+	text-decoration: none;
+	display:block;
+	padding:8px 6px 10px 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	}
+	
+#navigation a:hover {
+	color:#006464;
+	background-color: #CEE0E2;
+	}
+.navText {
+	color: #172B1B;
+	line-height:16px;
+	letter-spacing:.1em;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	}
+.container .header .style21 #clock {
+	letter-spacing: 1em;
+	word-spacing: 1em;
+}
+.body {
+	height: 430px;
+	width: 1150px;
+	float: none;
+	clear: none;
+}
+.container .header .style20 a {
+	text-decoration: none;
+}

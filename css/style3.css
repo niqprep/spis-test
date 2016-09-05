@@ -1,0 +1,38 @@
+
+body { 
+	font: 75% arial, sans-serif;
+	line-height: 1.88889;
+	color: #555753; 
+	background: #fff url(blossoms.jpg) no-repeat bottom right; 
+	margin: 0; 
+	padding: 0;
+	
+	}
+
+header{
+
+}
+
+#nav{
+float:right;
+} 
+ul#menu {
+    padding: 35px 0px 0 0;
+}
+
+ul#menu li {
+    display: inline;
+}
+
+ul#menu li a {
+    background-color: GRAY;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 8px 0px 0 0;
+}
+
+ul#menu li a:hover {
+    background-color: orange;
+	color: black;
+}

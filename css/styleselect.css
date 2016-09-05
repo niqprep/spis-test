@@ -1,0 +1,57 @@
+table{
+	width:500px;
+	margin:10px auto;
+	border: none;
+
+}
+input[type=date]{
+	width:150px;
+	margin:10px 10px;
+	height: 40px;
+	font-size: 14px;
+	padding: 5px 5px;
+
+}
+input[type=date], ::-webkit-inner-spin-button {
+    height: 40px;
+}
+
+input[type=submit], button{
+				clear: both;
+				margin: 10px auto;
+				padding:10px;
+				height: 40px;
+				width: 150px;
+				background: #3496CF;
+				border-color: #99D9EA;
+				font-weight: bold;
+				border-radius: 5px;		
+				float: none;
+	}
+
+select{
+	width: 270px;
+	border: solid 1px #aacfe4;
+	height:40px;
+}
+#dialog ul {
+	float: left;
+	position: absolute;
+	top: -1px;	
+	left: -5px;
+	font-size: 13px;
+	color: #A6A6A6;
+}
+	#dialog ul li{
+		display: inline;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+#boxes a{
+	text-decoration: none;
+	color: #A6A6A6;
+}
+
+#boxes a:hover{
+	color: #3496CF;
+}

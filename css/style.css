@@ -1,0 +1,757 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	//font-family: arial;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: left;
+	padding: 0px;
+	margin: 0px;
+
+
+
+}
+
+a{
+	color: #45619D;
+	text-decoration: none;
+}
+a:hover{
+	color: #009AE1;
+}
+/*h2, h1, h3{
+	font-family: 'Segoe UI Light', sans-serif;
+}*/
+
+	
+#wholepage{
+	overflow-x: hidden;
+	
+}
+	#header{
+	width: 100%;
+	height: 85px;
+	background:  linear-gradient(45deg, rgba(22,124,193,1) 0%, rgba(22,124,193,1) 15%, rgba(170,209,235,1) 58%, rgba(192,221,240,1) 58%, rgba(201,225,240,1) 79%, rgba(245,242,245,1) 100%);
+	//border-bottom: solid #136EAB;
+
+	}
+		#logo{
+		width: 370px;
+		height: 100%;
+		float: left;
+
+		}
+			#logo img{
+			width: 370px;
+			height: 100%;
+			//border-radius: 15px 0px 0px 15px;
+			}
+		
+		#timer{
+			height: 40px;
+			/*background: #0000ff;*/
+			padding: 3px 50px 4px 0px;
+			text-align: right;
+			font-size: 25px;
+			font-weight: bold;
+			color: #3496CF;
+			font-family: 'Segoe UI Light', sans-serif;
+		}
+		#topnav {
+			float: right;
+		}
+		
+	#mbody{
+	width: 75%;
+	min-height: 720px;
+	margin: 0px auto;
+	//background: #ebffff;
+	}
+
+	#lowernav{
+		//width: 1150px;
+		width: 100%;
+		margin: 0px auto;
+		padding: 0px;
+		border-top: 1px solid #B3B3B3;
+	}
+
+		#lowernav1{
+			//height: 250px;
+			height: 100%;
+			width: 50%;
+			//background: linear-gradient(to right, rgba(244,246,247,1) 0%,rgba(216,225,231,1) 91%,rgba(216,225,231,1) 93%,rgba(181,198,208,1) 95%,rgba(224,239,249,1) 100%); 
+			//background: green;
+			//background-image: url("../images/main_bg.png");
+			
+			padding-left: 20px; 
+			//border-right: 1px solid #B3B3B3;
+		}
+		#lowernav1 #noti strong{
+			font-size: 22px;
+		}
+			/*notification bubble START*/
+			#lowernav1 #noti{
+				margin:0;
+    			padding:0;
+    			position:relative;     /* This is crucial for the absolutely positioned element */
+    			//border:1px solid blue; /* This is just to show you where the container ends */
+   				width:179px;
+ 			   	height:30px;
+			}
+				#lowernav1 #noti #notibubble{
+					position:absolute;    /* This breaks the div from the normal HTML document. */
+				    top: -6px;
+				    right:-10px;
+				    padding:2px 3px 2px 3px;
+				    background-color:red; /* you could use a background image if you'd like as well */
+				    color:white;
+				    font-weight:bold;
+				    font-size:1em;
+				    border-radius:20px;
+    				box-shadow:1px 1px 1px gray;
+				}
+			/*notification bubble END*/
+		
+			#lowernav1 ul{
+			list-style-type: none;
+			}
+				#lowernav1 ul li{
+				padding: 4px 0px ;
+				}
+					#lowernav1 ul li a{
+						display: block;
+						padding: 5px 0px 5px 10px;
+						font-size: 15px;
+						color: #3496CF;
+						text-decoration: none;
+					}
+					
+					#leftnav ul li strong{
+						//background: linear-gradient(white, white, white, #7DBB62); 
+						color: #236B95;;
+					}
+		#list{
+			height: 400px;
+			clear: both;
+			overflow-y: auto; 
+		}
+		#list100perc{
+			height: 390px;
+			clear: both;
+			overflow-y: auto; 
+		}
+		#submenu{
+			float: right; 
+			width: 1050px;
+			height: auto;
+			padding: 0px;
+		}
+		
+		#maincontent{
+			width: 1200px;
+			//width: 80%;
+			//background: green;
+			min-height: 230px;
+			font-size: 13px;
+			margin: 25px auto;
+
+			text-align: center;
+			//color: #B37400;
+			//padding: 30px 0px 0px 0px;
+			//background-image: url("../images/main_bg.png");
+			//border-bottom: 1px solid #B3B3B3;
+		}
+			#poimg{
+				height: 180px;
+				width: 200px;
+				padding: 15px 15px;
+				float: left;
+				//background: green;
+				//border: 1px solid black;
+			}
+				#poimg img{
+					height: 120px;
+					width: 130px;
+					//padding: 0px 0px 10px 30px;
+				}
+			/*
+			#dvimg{
+				height: 230px;
+				width: 250px;
+				padding: 20px 20px;
+				float: right;
+				//background: red;
+			}
+				#dvimg img{
+					height: 170px;
+					width: 180px;
+					//padding: 0px 0px 10px 40px;
+				}
+			#rcvimg{
+				height: 230px;
+				width: 250px;
+				padding: 20px 20px;
+				margin: 0px auto;
+				//background: yellow;
+			}
+				#rcvimg img{
+					height: 170px;
+					width: 180px;
+					//padding: 0px 0px 10px 45px;
+				}*/
+
+		#maincontentrcv{
+			clear: both;
+			margin: 0px auto;
+			width: 100%;
+			height: 200px;
+			font-size: 15px;
+			
+			text-align: left;
+		}		
+
+		#maincontentpo{
+			clear: both;
+			margin: 0px auto;
+			width: 100%;
+			//background: linear-gradient(to right, #a0d8ef 0%,#a0d8ef 0%,#ddf1f9 4%,#feffff 26%,#feffff 50%,#feffff 76%,#ddf1f9 97%,#a0d8ef 100%);
+			min-height: 600px;
+			font-size: 15px;
+		
+			text-align: left;
+
+			//color: #B37400;
+
+		}
+			#poform{
+			//background-image: url("../images/main_bg.png");
+			padding: 10px 0px 20px 0px;
+			
+			}
+			
+			#tablediv2{
+			width: 100%;
+			padding: 0px 0px;
+			margin: 0px auto;
+			//height: 
+			}
+
+			#tablediv2 iframe{
+				margin: 0px auto;
+				padding: 5px 0px;
+				width: 100%;
+				min-height: 390px;	
+				
+				
+
+			}
+			iframe{
+				margin: 0px auto;
+				//padding: 10px 0px;
+				width: 100%;
+				min-height: 500px;	
+			
+			}
+			iframe::-webkit-scrollbar {  
+			   // display: none;
+			} 
+			
+			#tablediv{
+			width: 1030px;
+			padding: 10px 5px 10px 5px;
+			margin: 0px auto;
+			}
+				
+				#tdlabel{
+				//border: 1px solid black;
+				width: 150px;
+				padding: 2px 6px;
+				text-align: left;
+				}
+
+				#tablediv input[type=text], select, input[type=date], input[type=number]{
+				width: 100%;
+				border: solid 1px #aacfe4;
+				height:23px;
+				//border-radius: 8px;
+				padding-left: 5px;
+				}
+
+				/*for pop up on po.php*/
+				#popupdiv input[type=text]{
+				width: 300px;
+				margin: 10px auto;
+				}
+
+				#tablediv tr td{
+				padding: 2px 3px;
+				}
+				#tablediv tr td label strong, #tabledesc strong{
+				color: red;
+				}
+
+					#poform #tablediv iframe{
+						margin: 0px auto;
+						padding: 0px 0px;
+					}
+							#tablesearch{
+								margin: 0px auto;
+							}
+							#tablesearch tr td{
+								margin: 0px auto;
+								padding: 0px 0px;
+							}
+
+							#poform #tablesearch input[type=text]{
+								width: 500px;
+								border: solid 1px #aacfe4;
+								border-radius: 8px 0px 0px 8px;
+								height:30px;
+								margin: 0px 0px;
+								padding: 0px 0px;
+								text-align: center;
+								
+							}
+							
+							#poform #tablesearch input[type=submit]{
+								font-size: 17px;
+								background: #3496CF;
+								border-color: #99D9EA;
+								border: solid 1px #aacfe4;
+								border-radius: 0px 8px 8px 0px;
+								margin-left: 0px;
+								margin: 0px;
+								padding: 0px 0px;
+
+							}
+
+							#poform #tablesearch #showbtn{
+								font-size: 17px;
+								background: #FFFFFF;
+								border-radius: 8px 8px;
+								color: black;
+								margin: 0px 0px;
+							}
+	#record{
+	table-layout: fixed;
+	width: 100%;
+	margin: 0px auto;
+	text-align: left;
+	border: none;
+	padding: 0px 0px;
+	margin: 0px 0px;
+
+	}
+		#record tr td{
+			font-size: 13px;
+			border-bottom: dashed 1px #aacfe4;
+			padding: 10px 0px;
+			margin: 0px 0px;
+
+		}
+
+	#issueth{
+	table-layout: fixed;
+	width: 99%;
+	margin: 0px auto;
+	text-align: left;
+	padding-bottom: 10px;
+	padding-top: 20px;
+	padding-left: 0px;
+	margin: 0px auto;
+	border-bottom: solid 1px #aacfe4;
+	}
+
+	#record2{
+	table-layout: fixed;
+	width: 99%;
+	margin: 0px auto;
+	text-align: center;
+	border-bottom: solid 1px #aacfe4;
+	padding-bottom: 0px;
+	padding-top: 20px;
+	padding-left: 0px;
+	padding-right: 15px;
+	margin: 0px auto;
+
+	}
+		#record2 tr td{
+			
+			font-size: 12px;
+			text-align: left;
+			padding: 0px 0px;
+			margin: 0px auto;
+
+		}
+		#issueth tr td{
+			font-size: 12px;
+			text-align: left;
+			padding: 10px 0px;
+			margin: 0px auto;
+		}
+
+			#tabledesc{
+			table-layout: fixed;
+			width: 1030px;
+			margin: 0px auto;
+			text-align: center;
+			border: 1px solid;
+			}
+				#tabledesc #thead td{
+				//border: 1px solid black;
+				//border-radius: 3px;
+				}
+				
+				#tabledesc input{
+				border-top: none;
+				border-left: none;
+				border-right: none;
+				border-bottom: solid 1px #aacfe4;
+				height:21px;
+				border-radius: 5px;
+				padding-left: 5px;
+				}
+				
+				
+				#tabledesc #unit{
+				width: 130px;
+				}
+				#tabledesc #desc{
+				width: 395px;
+				}
+				#tabledesc #qty{
+				width: 130px;
+				}
+				#tabledesc #unitcost{
+				width: 80px;
+				}
+				#tabledesc #amt, #ttamt{
+				width: 130px;
+				}
+				
+				#total #tdlabel{
+				height:55px;
+				}
+			#poform input[type=submit]{
+				height: 33px;
+				width: 150px;
+				font-size: 17px;
+				background: #3496CF;
+				border-color: #99D9EA;
+				border-radius: 5px;
+				margin: 30px 197px;
+				color: white;
+				}
+			#poform button{
+			/*margin: 4px 10px;
+			width: 48px;
+			height: 34px;
+			font-size: 27px;
+			color: #3496CF;
+			float: right;*/
+			height: 35px;
+				width: 150px;
+				font-size: 17px;
+				background: #3496CF;
+				border-color: #99D9EA;
+				border-radius: 5px;
+				margin: 30px 197px;
+				color: white;
+			}
+#mc_rcv1{
+	  font-family: 'Segoe UI Light', sans-serif;
+}
+			
+/* style of pop up window for po.php */	
+			#mask {
+			  position: absolute;
+			  left: 0;
+			  top: 0;
+			  z-index: 9000;
+			  background-color: #000;
+			  display: none;
+			}
+			 
+			#boxes .window {
+			  position: absolute;
+			  left: 0;
+			  top: 0;
+			  width: 440px;
+			  height: 200px;
+			  display: none;
+			  z-index: 9999;
+			  padding: 50px;
+			  border-radius: 15px;
+			  text-align: center;
+			}
+			 
+			#boxes #dialog {
+			  width: 750px;
+			  height: 400px;
+			  padding: 10px;
+			  background-color: #ffffff;
+			  font-family: 'Segoe UI Light', sans-serif;
+			  font-size: 15pt;
+			}
+			
+			#window{
+				top: 500px; 
+				left: 551.5px; 
+				display: none;
+			}
+
+/*popup window on rcv page*/
+			#rcv input[type=number] {
+				width: 250px;
+				border: solid 1px #aacfe4;
+				height:40px;
+				//border-radius: 8px;
+				padding: 10px;
+				margin-top: 19px;
+				margin-bottom: 0px;
+				margin-left: 10px;
+				margin-right: 10px;
+				font-size: 23px;	
+				text-align: center;
+			}
+			#slct {
+				width: 272px;
+				
+				height:50px;
+				//border-radius: 8px;
+				margin-top: 4px;
+				
+				margin-bottom: 5px;
+				
+				font-size: 18px;	
+				text-align: center;
+			}
+			#drpdwn_issue {
+				width: 250px;
+				border: solid 1px #aacfe4;
+				height:90px;
+				//border-radius: 8px;
+				padding: 15px;
+				margin-top: 25px;
+				margin-bottom: 5px;
+				margin-left: 10px;
+				margin-right: 10px;
+				font-size: 18px;	
+				text-align: center;
+			}
+			#btn{
+				width: 300px;
+				height: 100px;
+				margin: 10px auto;
+				clear: both;
+
+			}
+			#btn input[type=submit]{
+					height: 40px;
+					width: 120px;
+					font-size: 17px;
+					background: #3496CF;
+					border-color: #99D9EA;
+					border-radius: 5px;
+					margin: 5px;
+					color: white;
+					}
+			#btn button{
+					height: 40px;
+					width: 120px;
+					font-size: 17px;
+					background: #3496CF;
+					border-color: #99D9EA;
+					border-radius: 5px;
+					margin: 5px;
+					color: white;
+					
+				}
+			
+/* end- style of pop up window for po.php - end */	
+
+#icon{
+	width: 19px;
+	height: 19px;
+}
+
+	#footer{
+		
+
+		position:fixed;
+		//position: absolute;
+		//position: relative;
+		bottom: 0;
+		
+		width:100%;
+		padding-top: 5px;
+		font-size: 12px;
+		margin: 0px;
+		width: 100%;
+		
+		//background-image: url('../images/ftr.jpg');
+		//background-repeat: no-repeat;
+		//background-position: center top;
+		min-height: 30px;
+		text-align: center;
+		background: linear-gradient(135deg, rgba(245,242,245,1) 0%, rgba(201,225,240,1) 14%, rgba(201,225,240,1) 28%, rgba(196,225,242,1) 32%, rgba(159,205,235,1) 32%, rgba(22,124,193,1) 85%, rgba(22,124,193,1) 100%);
+		//true -> background: linear-gradient(135deg, rgba(18,95,171,1) 0%, rgba(18,95,171,1) 18%, rgba(18,95,171,1) 30%, rgba(19,110,171,1) 30%, rgba(19,110,171,1) 100%);
+		//background: linear-gradient(135deg, rgba(18,95,171,1) 0%, rgba(18,95,171,1) 29%, rgba(18,95,171,1) 49%, rgba(19,110,171,1) 49%, rgba(233,237,242,1) 81%, rgba(250,246,245,1) 100%);
+		//background: linear-gradient(#125FAB, #0F5092);
+		//background: linear-gradient(#505050, #383838);
+	}
+		#footer #left{
+			float: left;
+			padding-left: 5px;
+		}
+		#footer #right{
+			float: right;
+			padding-right: 5px;
+		}
+		#footer a{
+			text-decoration: none;
+			color: #95BAE7;
+			
+		}
+		#footer a:hover{
+			color: #99ACBE;
+
+		}
+
+#potbls{
+	
+	width: 100%;
+	border: 1px ;
+	border-color: #768088;
+	margin-top: 10px;
+	//padding-top: 20px;
+}
+
+#potbls td{
+	width: 30%;
+	padding-bottom: 5px;
+	text-align: left;
+	padding-left: 30px;
+}
+
+#potbls2{
+	
+	//width: 100%;
+	
+	margin-top: 10px;
+	padding-top: 20px;
+}
+	
+	#potbls2 table{
+		width: 95%;
+		
+		margin: 10px auto;
+		padding-top: 20px;
+	}
+		#potbls2 td{
+			//width: 30px;
+			padding-bottom: 2px;
+			text-align: left;
+		}
+		#potbls2 input[type=text], input[type=number], input[type=date]{
+			width: 200px;
+			height: 30px;
+			padding-bottom: 2px;
+			text-align: left;
+			padding-left: 20px;
+			border: solid 1px #aacfe4;
+			margin: 0px;
+		}
+		#potbls2 select{
+			width: 222px;
+			height: 30px;
+			padding-bottom: 2px;
+			text-align: left;
+			padding-left: 20px;
+			border: solid 1px #aacfe4;
+		}
+			
+		
+#potbls3{
+	
+	//width: 100%;
+	
+	margin-top: 10px;
+	padding-top: 0px;
+}
+	#potbls3 table{
+		//width: 95%;
+		
+
+		margin: 10px auto;
+		padding-top: 20px;
+	}
+		#potbls3 td{
+			min-width: 30px;
+			padding-bottom: 5px;
+			padding-left: 20px;
+			text-align: left;
+			padding-left: 5px;
+			font-size: 13px;
+			
+		}
+		#potbls3 select{
+			width: 100%;
+			margin-top: 5px;
+			height:25px;
+			font-size: 13px;
+			//border-radius: 8px;
+			padding-left: 5px;
+		}
+
+		#potbls3 input[type=number]{
+			width: 50px;
+			margin-top: 5px;
+			height:10px;
+			font-size: 13px;
+			//border-radius: 8px;
+			padding-left: 5px;
+		}
+
+
+#leftdiv{
+	display: inline;
+	clear: both;
+	float: left;
+	//background-color: green;
+	width: 35%;
+	padding-left: 30px;
+	text-align: left;
+	margin-top: 10px;
+
+}
+
+#middiv{
+	display: inline-block;
+	margin: 0px auto;
+	//background-color: yellow;
+	width: 50%;
+	padding-left: 30px;
+	border-left: 1px solid #A6A6A6;
+	height: 200px;
+}
+
+
+#dialog ul {
+	float: left;
+	position: absolute;
+	top: -1px;	
+	left: -5px;
+	font-size: 13px;
+	padding-bottom: 30px;
+	
+}
+	#dialog ul li{
+		display: inline;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+		#dialog ul li a{
+		
+		color: #A6A6A6;
+		}

@@ -1,0 +1,59 @@
+body{
+	font-family: Arial Narrow, arial;
+	font-size: 14px;
+	text-align:justify;
+}
+
+
+#logform{
+	border: solid 2px #b7ddf2;
+	background: #ebf4fb;
+	min-height: 150px;
+	margin: 40px auto;
+	padding: 20px 15px;
+	border-radius: 15px;
+	width: 390px;
+}
+	#logform img{
+		width: 390px;
+		height:110px;
+		border-radius: 15px;
+	}
+	#logform form{
+	padding: 10px 0px;
+	}
+		#logform p{
+		padding: 20px 5px;
+		font-size: 12px;
+		}
+		
+		#logform form input{
+		border: solid 1px #aacfe4;
+		width:270px;
+		height:23px;
+		margin: 2px 20px;
+		border-radius: 8px;
+		text-align: center;
+		}
+		
+		#logform form label{
+		width:60px;
+		margin: 10px 10px;
+		}
+		
+		#logform form input[type=submit]{
+		float:right;
+		height: 24px;
+		width: 150px;
+		background: #3496CF;
+		border-color: #99D9EA;
+		display: block;
+		margin: 15px 25px;
+		border-radius: 5px;
+		}
+		
+		#logform form input[type=submit]:hover {
+		background: #99D9EA;
+		border-color: #3496CF;
+		}
+		

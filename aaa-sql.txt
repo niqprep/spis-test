@@ -1,0 +1,4 @@
+--sql query
+
+ALTER TABLE `itrmc_db01`.`po_poitems` 
+ADD COLUMN `bsi_id` VARCHAR(45) NULL AFTER `cancelledby`;

@@ -1,0 +1,289 @@
+#mbody2{
+	width: 800pt;
+	min-height: 600px;
+	margin: 1pt;
+	font-size: 11pt;
+	}
+#navprnt img{
+	width: 30px;
+	height: 30px;
+	float: right;
+	margin-right: 280px;
+}
+
+#title{
+	float: right;
+	text-align: right;
+}
+select{
+				width: 270px;
+				border: solid 1px #aacfe4;
+				height:40px;
+				//border-radius: 8px;
+				padding: 5px;
+				margin-left: 10px;
+				margin-right: 10px;
+				margin-bottom: 10px;
+				font-size: 12px;
+				}
+
+input[type=text], input[type=date], input[type=number], input[type=email], input[type=url], textarea{
+				width: 250px;
+				border: solid 1px #aacfe4;
+				height:25px;
+				padding: 10px;
+				margin-left: 10px;
+				margin-right: 10px;
+				margin-bottom: 10px;
+				font-size: 14px;
+				}
+textarea{
+				height: 8em;
+				margin-bottom: 10px;
+}
+
+input[type=submit]{
+				padding:10px;
+				height: 40px;
+				width: 100px;
+				background: #3496CF;
+				border-color: #99D9EA;
+				display: block;
+				font-weight: bold;
+				border-radius: 5px;
+				float: right;
+				margin-right:12px; 
+}
+
+#srchelem input[type=text] {
+				margin-left: 10px;
+				margin-right: 10px;
+				width: 249px;
+}
+
+#mc_rcv{
+	font-family: 'Segoe UI Light', sans-serif;
+}
+	#hlt{
+		color: red;
+		text-decoration: bold;
+	}
+
+	#search{
+		width:100%;
+		margin: 0px auto;
+	}
+
+	#mc_rcv input[type=submit]{
+				clear: both;
+				margin: 10px auto;
+				padding:10px;
+				height: 40px;
+				width: 150px;
+				background: #3496CF;
+				border-color: #99D9EA;
+				font-weight: bold;
+				border-radius: 5px;		
+				float: none;
+	}
+/* View bincard page style */	
+
+#head1{
+	float: left;
+	
+}
+#eor{
+	text-align: center;
+}
+/*end -View bincard page style */	
+.container { 	
+				border:2px solid #ccc;
+				width:100%; 
+				height: 350px; 
+				overflow-y: scroll; 
+				margin-bottom: 15px;
+}
+.containeredit { 	
+				border:2px solid #ccc;
+				width:100%; 
+				height: 450px; 
+				overflow-y: scroll; 
+				margin-bottom: 15px;
+}
+
+
+.container input[type=checkbox]{
+	zoom: 1.7;
+}
+	.container input[type=number], input[type=text]{
+	width: 60%;
+	margin: 0px auto;
+	}
+
+
+.container2 { 	
+				border:none;
+				width:100%; 
+				height: 350px; 
+				overflow-y: scroll; 
+				margin-bottom: 15px;
+				margin: 0px auto;
+}
+
+.container2 input[type=checkbox]{
+	zoom: 1.7;
+}
+
+#issueform {
+	text-align: left;
+}
+
+	#issueform input[type=submit]{
+					height: 40px;
+					width: 120px;
+					font-size: 17px;
+					background: #3496CF;
+					border-color: #99D9EA;
+					border-radius: 5px;
+					margin-right: 200px;
+					color: white;
+					}
+	#issueform button{
+					height: 40px;
+					width: 120px;
+					font-size: 17px;
+					background: #3496CF;
+					border-color: #99D9EA;
+					border-radius: 5px;
+					color: white;
+					margin-left: 200px;
+				}
+
+#addstock button{
+					height: 40px;
+					width: 120px;
+					font-size: 17px;
+					background: #3496CF;
+					border-color: #99D9EA;
+					border-radius: 5px;
+					color: white;
+					margin-left: 200px;
+				}
+#record3{
+	table-layout: fixed;
+	width: 99%;
+	margin: 0px auto;
+	text-align: center;
+	
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 0px;
+	margin: 0px auto;
+
+	}
+		#record3 tr td{
+			border-bottom: dashed 1px #aacfe4;
+			font-size: 12px;
+			text-align: center;
+			padding-bottom: 15px;
+			padding-top: 10px;
+			margin: 0px auto;
+		}
+
+#record #num{
+	text-align: left;
+	font-size: 16px;
+	margin: 0px 0px;
+}
+#record #num2{
+	font-size: 16px;
+	padding-left: 10px;
+}
+#record tr td a img{
+	margin-left: 5px;
+}
+#record tr td a img:hover{
+	-webkit-transform:scale(1.15); /* Safari and Chrome */
+    -moz-transform:scale(1.15); /* Firefox */
+    -ms-transform:scale(1.15); /* IE 9 */
+    -o-transform:scale(1.15); /* Opera */
+     transform:scale(1.15);
+}
+/* style of pop up window for po.php */	
+			#mask {
+			  position: absolute;
+			  left: 0;
+			  top: 0;
+			  z-index: 9000;
+			  background-color: #000;
+			  display: none;
+			}
+			 
+			#boxes .window {
+			  position: absolute;
+			  left: 0;
+			  top: 0;
+			  width: 440px;
+			  height: 600px;
+			  display: none;
+			  z-index: 9999;
+			  padding: 30px;
+			  border-radius: 15px;
+			  text-align: center;
+			}
+			 
+			#boxes #dialog {
+			  width: 700px;
+			  height: 600px;
+			  padding: 20px;
+			  background-color: #ffffff;
+			  font-family: 'Segoe UI Light', sans-serif;
+			  font-size: 15pt;
+			}
+			
+			#window{
+			top: 179.5px; 
+			left: 551.5px; 
+			display: none;
+			}
+/* end- style of pop up window for po.php - end */	
+
+/* bincard page style*/
+#bintbl{
+	width: 800pt;
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+	margin: 0px auto;
+	margin-top: 5px;
+
+
+}
+	#bintbl td, th{
+		border: 1px solid #ccc;
+		padding: 5px 5px;
+		vertical-align: top;
+	}
+
+/* end- bincard page style -end*/
+
+#addstock{
+ 	margin: 0px auto;
+ }
+
+ #addstock .head{
+ 	text-align: center;
+ }
+
+#addstock input[type=text], input[type=email], input[type=date]{
+	width: 271px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	height: 38px;
+ }
+
+#addstock strong{
+ 	color: red;
+ }
+

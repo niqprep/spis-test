@@ -1,0 +1,150 @@
+#maincontent_view{
+	margin: 0px auto;
+	font-size: 12px;
+	min-height: 1100px;
+	}
+	
+	#contnav{
+		
+		margin: 0px 0px;
+	}
+		#nav1{
+			padding: 5px 5px;	
+			width: 100%;
+			float: left;
+			
+		}
+			#nav2{
+			padding: 10px 5px;
+			float: right;
+
+			}
+				#nav2 img{
+				width: 30px;
+				height: 30px;
+				border: none;
+				}
+		#nav3{
+			padding: 10px 5px;
+			font-size: 14px;
+			float: left;
+			}
+
+			#nav3 strong{
+			font-size: 20px;
+			}
+h3{
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+table{
+	width: 100%;
+	border: 1px solid;
+	margin: 0px auto;
+	padding: 5px 20px;
+	min-height: auto;
+	
+}
+
+	table tr td{
+	padding: 0px 0px;
+	text-align: left;
+	width: 270px;
+	padding-bottom: 5px;
+	font-size: 12px;
+	}
+
+	table th{
+	text-align: center;
+	width: 65px;
+	font-size: 13px;
+	}
+
+
+#heading{
+	text-align: center;
+	padding: 3px 0px;
+	font-weight: bold;
+	font-size: 12px;
+
+}
+
+#tbl_label{
+	font-weight: bold;
+	font-size: 12px;
+	width: 95px;
+	
+
+}
+
+	#items{
+	height: 300px;
+	border-collapse: collapse;
+
+	}
+
+		#items td{
+		width: 60px;
+		height: 20px;
+		padding: 5px 5px;
+		padding-left:10px ;
+		margin: 0px 0px;
+		border-right: 1px dotted;
+		vertical-align: top;
+		font-size: 11px;
+		}
+
+		#items #amt{
+		text-align: center;
+		}
+
+		#tamt{
+		text-align: right;
+		font-weight: bold;
+		font-size: 12px;
+		padding-right: 12px;
+		}
+
+h4{
+	margin-top: 0em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 12px;
+}
+#conforme{
+	padding-bottom: 10px;
+}
+
+	#conforme td{
+		width: 70px;
+		text-align: center;
+	}
+	#conforme h4{
+		font-size: 12px;
+		text-align: left;
+	}
+		#conforme #conf td{
+			text-align: left;
+		}
+
+#line{
+	border-bottom: 1px solid;
+}
+
+#funds{
+	padding-bottom: 10px;
+}
+	#funds td{
+		width: 70px;
+		text-align: center;
+		padding-left: 0px;
+	}
+		#funds #fund td{
+		text-align: left;
+		}

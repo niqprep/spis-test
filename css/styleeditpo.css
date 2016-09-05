@@ -1,0 +1,174 @@
+#maincontent_view{
+	margin: 0px auto;
+	font-size: 12px;
+	height: 1180px;
+	}
+	
+	#contnav{
+		width: 100%;
+		margin: 0px auto;
+	}
+		#nav1{
+			padding: 5px 5px;	
+			width: 800px;
+			float: left;
+			
+		}
+			#nav2{
+			padding: 10px 5px;
+			float: right;
+
+			}
+				#nav2 img{
+				width: 30px;
+				height: 30px;
+				border: none;
+				}
+h3{
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+input[type=submit] {
+  margin: 15px auto;
+  height: 40px;
+  width: 150px;
+  background: #3496CF;
+  border:1px solid #99D9EA;
+  display: block;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+table{
+	width: 100%;
+	border: 1px solid;
+	margin: 0px auto;
+	padding: 5px 20px;
+	
+}
+
+	table tr td{
+	padding: 0px 0px;
+	text-align: left;
+	width: 270px;
+	padding-bottom: 5px;
+	font-size: 12px;
+	}
+
+	table th{
+	text-align: center;
+	width: 65px;
+	font-size: 13px;
+	}
+
+
+#heading{
+	text-align: center;
+	padding: 3px 0px;
+	font-weight: bold;
+	font-size: 12px;
+
+}
+
+#tbl_label{
+	font-weight: bold;
+	font-size: 12px;
+	width: 95px;
+	
+
+}
+
+	#items{
+	height: 300px;
+	border-collapse: collapse;
+
+	}
+
+		#items td{
+		width: 60px;
+		height: 20px;
+		padding: 5px 5px;
+		padding-left:10px ;
+		margin: 0px 0px;
+		border-right: 1px dotted;
+		vertical-align: top;
+		font-size: 11px;
+		}
+
+		#items #amt input[type=text] {
+		width: 78px;
+		}
+
+		#tamt{
+		text-align: right;
+		font-weight: bold;
+		font-size: 12px;
+		padding-right: 12px;
+		}
+
+h4{
+	margin-top: 0em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 12px;
+}
+#conforme{
+	padding-bottom: 10px;
+}
+
+	#conforme td{
+		width: 70px;
+		text-align: center;
+	}
+	#conforme h4{
+		font-size: 12px;
+		text-align: left;
+	}
+		#conforme #conf td{
+			text-align: left;
+		}
+
+#line{
+	border-bottom: 1px solid;
+}
+
+#funds{
+	padding-bottom: 10px;
+}
+	#funds td{
+		width: 70px;
+		//text-align: center;
+		padding-left: 0px;
+	}
+		#funds #fund td{
+		text-align: left;
+		}
+
+#editpo table{
+	background-image: url("../images/main_bg.png");
+}
+
+#editpo input[type=text],  select, input[type=date], input[type=number], textarea{
+	width: 80%;
+	border: solid 1px #aacfe4;
+	height:23px;
+	padding-left: 5px;
+}
+
+#editpo textarea{
+	width: 98%;
+	border: solid 1px #aacfe4;
+	height:23px;
+	padding-left: 5px;
+}
+#editpo #unitcost{
+	width: 80px;
+	height:15px;
+	font-size: 12px;
+}
